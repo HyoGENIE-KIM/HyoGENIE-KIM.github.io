@@ -2,7 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
+<<<<<<< HEAD
     background: $glass-color;
+=======
+    background: #fff;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {

@@ -1,14 +1,21 @@
 /**
  * Site header
  */
+<<<<<<< HEAD
 .site-header {  
    
+=======
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
+<<<<<<< HEAD
 .title{
     padding: $spacing-unit * 3;
     float: left;
@@ -17,15 +24,26 @@
 
 .site-title {
     font-size: 16px;
+=======
+.site-title {
+    font-size: 26px;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+<<<<<<< HEAD
     
     &,
     &:visited {
         color: $text-color;
+=======
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     }
 }
 
@@ -40,7 +58,10 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+<<<<<<< HEAD
         font-size: 14px;
+=======
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -103,9 +124,15 @@
 /**
  * Site footer
  */
+<<<<<<< HEAD
 .site-footer {   
     padding: $spacing-unit 0;
     text-align: center;
+=======
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
 }
 
 .footer-heading {
@@ -119,16 +146,21 @@
     margin-left: 0;
 }
 
+<<<<<<< HEAD
 /**
  * Grid
  */
 .col-wrapper {
+=======
+.footer-col-wrapper {
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
+<<<<<<< HEAD
 .col {
     float: left;
     margin-bottom: $spacing-unit / 4;
@@ -208,19 +240,55 @@
     .col-10,
     .col-11,
     .col-12{
+=======
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
 @include media-query($on-palm) {
+<<<<<<< HEAD
     .col {
+=======
+    .footer-col {
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
+<<<<<<< HEAD
 /**
  * Fixed Heights
  */
@@ -235,6 +303,9 @@
 .height-3{
     min-height: $height-unit * 3;
 }
+=======
+
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
 
 /**
  * Page content

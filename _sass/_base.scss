@@ -13,7 +13,11 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+<<<<<<< HEAD
 body {    
+=======
+body {
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
@@ -34,6 +38,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
+<<<<<<< HEAD
     margin-bottom: $spacing-unit / 2;    
 }
 
@@ -43,6 +48,11 @@ ul, ol, dl, figure,
 .site-header{
     text-transform: uppercase;
 }
+=======
+    margin-bottom: $spacing-unit / 2;
+}
+
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
 
 
 /**
@@ -91,10 +101,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
 /**
  * Links
  */
 a {
+<<<<<<< HEAD
     color: $text-color;
     text-decoration: none;
 
@@ -104,6 +120,18 @@ a {
 
     &:hover {
         color: $text-color;        
+=======
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
     }
 }
 
@@ -133,9 +161,15 @@ blockquote {
 pre,
 code {
     font-size: 15px;
+<<<<<<< HEAD
     border: 1px solid lighten($glass-color, 10%);
     border-radius: 3px;
     background-color: $glass-color;
+=======
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+>>>>>>> f1c2b7cc9bdab87e176b2a46fa3955efe48cd1a6
 }
 
 code {
