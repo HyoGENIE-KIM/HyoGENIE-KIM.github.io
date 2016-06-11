@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 body {    
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: $text-color;
+    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -35,9 +35,6 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;    
-}
-p{
-    margin-bottom: 1.1em;
 }
 
 /**
@@ -75,8 +72,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    //margin-left: $spacing-unit;
-    margin-left: 20pt;
+    margin-left: $spacing-unit;
 }
 
 li {
@@ -92,29 +88,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+    font-weight: $base-font-weight;
 }
-h2{
 
-}
-h3{
-    margin-left: 10pt;
-    margin-top: 20pt;
-}
-h4{
-    margin-left: 20pt;
-    margin-top: 15pt;
-}
-h5{
-    margin-left: 30pt;
-    margin-top: 10pt;
-    font-size: 1em;
-}
-h6{
-    margin-left: 35pt;
-    margin-top: 8pt;
-    font-size: 1em;
-}
 /**
  * Links
  */

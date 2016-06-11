@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "FINALLY I made it!"
+color:  black
+width:   3
+height:  1
+date:   2016-06-11 12:12:34 +0900
+categories: jekyll update
+---
+와 여러분 제가 첫 글을 쓰고 있습니다 감격...! 눈물...! 박수주세요(Clap)!!훠우!!
